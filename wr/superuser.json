@@ -1,0 +1,18 @@
+[
+{
+    "model": "emailuser.User",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$IruJLQlwiNJvcrrJv9WmBH$SCLGnVMZ454zE/SW11llcuzHWA/hgkz8uA8ndMMY7ZE=",
+        "last_login": null,
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@webrunners.de",
+        "is_staff": true,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
