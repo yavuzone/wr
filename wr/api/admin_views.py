@@ -66,9 +66,8 @@ class UserManagementView(APIView):
                 {"status": "error", "message": "User doesn't exists!"}, status=400
             )
         user = get_user_model().objects.get(id=user_id)
-
-        email = request.POST.get("email", "")
-        password = request.POST.get("password", "")
+        email = request.data.get("email", "")
+        password = request.data.get("password", "")
 
         if email:
             try:

@@ -1,0 +1,7 @@
+Task 5:
+
+There are multiple options to set:
+    - One time password. User needs to reset his password after login.
+    - Password is not set. He gets an email with a password reset link.
+    - Force of HTTPS so at least the password is send encrypted
+
