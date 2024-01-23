@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from api.views import GetTokenView, ValidateTokenView
+from api.admin_views import UserManagementView
 
 urlpatterns = [
     path("User/GetToken", GetTokenView.as_view()),
     path("User/ValidateToken", ValidateTokenView.as_view()),
+    path("Admin/UserManagement", UserManagementView.as_view()),
+    path("Admin/UserManagement/<int:user_id>", UserManagementView.as_view()),
 ]
