@@ -1,7 +1,13 @@
-Task 1: 1 Stunde
+Task 1:
+    Estimation: 1 hour
+    Real: 30 minutes
 
-Task 2: 1 Stunde
+Task 2:
+    Estimation: 1 hour
+    Real: 1 hour
 
-Task 3: 2 Stunde
+Task 3:
+    Estimation: 2 hours
 
-Task 4: 2 Stunde
+Task 4:
+    Estimation: 2 hours

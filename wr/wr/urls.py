@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from controlpanel.views import login_page_view, restricted_page_view, logout_page_view
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
+    path("", restricted_page_view),
+    path("login", login_page_view),
+    path("logout", logout_page_view),
 ]
