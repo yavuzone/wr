@@ -8,6 +8,7 @@ Task 2:
 
 Task 3:
     Estimation: 2 hours
+    Real: 1.2 hour
 
 Task 4:
     Estimation: 2 hours
